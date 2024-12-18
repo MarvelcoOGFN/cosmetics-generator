@@ -30,7 +30,7 @@ async function main() {
                         chapter: intro.chapter,
                         season: intro.season
                     },
-                    shopHistory: item.shopHistory
+                   // shopHistory: item.shopHistory
                 };
                 valid_items.push(valid_item);
             }
@@ -41,6 +41,12 @@ async function main() {
     } catch (error) {
         console.error('An error occurred:', error);
     }
+    
+    console.log('Closing the Generator in 5 seconds...');
+    setTimeout(() => {
+        console.log('Exiting...');
+        process.exit(0); // Exit because we dont want a loop
+    }, 5000);
 }
 
 main();
