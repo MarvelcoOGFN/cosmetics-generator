@@ -14,7 +14,7 @@
 
 -AthenaDance
 
-### To use this you first go to line 7 and pick what season you want then you install packages then run it
+### To use this you first go to line 4 and 5 to pick what chapter and season you want then you install packages then run it
 
 this uses https://fortnite-api.com/v2/cosmetics/br to get them then puts it in this configuration inside a file called items.json located where you extracted the src 
 
@@ -33,3 +33,4 @@ this uses https://fortnite-api.com/v2/cosmetics/br to get them then puts it in t
     },
 
 ```
+### Note: To get Shop History uncomment line 50
